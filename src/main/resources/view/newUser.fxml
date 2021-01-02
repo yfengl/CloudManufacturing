@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="nUser" prefHeight="340" prefWidth="600" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yfengleng.controller.NewUserController">
+   <children>
+      <VBox layoutX="1.0" prefHeight="340.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="姓名">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="name" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="账号">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="account" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="密码">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="password" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="邮箱">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="email" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="电话">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="tel" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="类型">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <RadioButton fx:id="factoryAdmin" mnemonicParsing="false" text="云工厂管理员">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="type" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="consignee" mnemonicParsing="false" text="经销商" toggleGroup="$type">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+               <children>
+                  <Button mnemonicParsing="false" text="新建" onMouseClicked="#newUser">
+                     <HBox.margin>
+                        <Insets left="60.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" text="重置">
+                     <HBox.margin>
+                        <Insets left="140.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

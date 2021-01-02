@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yfengleng.dao.OrderDao">
+    <select id="findAll" resultType="Order">
+        select * from `order`;
+    </select>
+    <select id="findAllPublishedOrder" resultType="Order">
+        select * from `order` where orderStatus!='未发布';
+    </select>
+    <select id="findByOrderId" resultType="Order" parameterType="int">
+        select * from `order` where orderId=#{orderId};
+    </select>
+    <select id="findByConsigneeId" parameterType="int" resultType="Order">
+        select * from `order` where consigneeId=#{consigneeId};
+    </select>
+    <insert id="insert" parameterType="Order">
+        insert into `order`( pId, productAmount, accomplishDeadline, tenderDeadline, consigneeId,orderStatus) VALUES (#{pid},#{productAmount},#{accomplishDeadline},#{tenderDeadline},#{consigneeId},#{orderStatus});
+    </insert>
+    <update id="update" parameterType="Order">
+        update `order` set orderId=#{orderId},pId=#{pid},productAmount=#{productAmount},accomplishDeadline=#{accomplishDeadline},tenderDeadline=#{tenderDeadline},consigneeId=#{consigneeId},orderStatus=#{orderStatus} where orderId=#{orderId};
+    </update>
+    <delete id="deleteByOrderId" parameterType="Order">
+        delete from `order` where orderId=#{orderId};
+    </delete>
+</mapper>

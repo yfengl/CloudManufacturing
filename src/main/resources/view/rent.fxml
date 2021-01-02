@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yfengleng.controller.RentController">
+   <children>
+      <GridPane layoutX="29.0" layoutY="19.0" prefHeight="413.0" prefWidth="743.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="388.0" minWidth="10.0" prefWidth="384.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="568.0" minWidth="10.0" prefWidth="359.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="89.0" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="329.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="79.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="41.0" prefWidth="143.0" text="可租用的设备">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TableView fx:id="equipmentTable" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
+              <columns>
+                  <TableColumn fx:id="equipmentName" prefWidth="126.0" text="设备名称" />
+                  <TableColumn fx:id="equipmentTypeName" prefWidth="152.0" text="设备类别" />
+                  <TableColumn fx:id="equipmentSpecification" minWidth="0.0" prefWidth="226.0" text="设备规格" />
+                  <TableColumn fx:id="equipmentStatus" prefWidth="121.0" text="设备状态" />
+                  <TableColumn fx:id="rentalStatus" prefWidth="117.0" text="租借状态" />
+              </columns>
+            </TableView>
+            <TextField fx:id="rentText" GridPane.rowIndex="2" promptText="请输入租用的设备名称">
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <Button fx:id="rent" onMouseClicked="#rentEquipment" mnemonicParsing="false" text="租用" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+.button,
+.check-box {
+    -fx-border-style: none!important;
+}
+#loginContain {
+    -fx-background-image: url("../image/backgroundImage.png");
+}
+#loginPanel {
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,.2), 1, 2, 2, 2);
+}
+#logo {
+    -fx-font-family: "Microsoft YaHei UI Light";
+    -fx-font-size: 45px;
+    -fx-text-fill: #f2f2f2;
+    -fx-font-weight: 200;
+}
+#submit {
+    -fx-font-size: 15px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+#close {
+    -fx-background-image: url("../image/close.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+#close:hover {
+    -fx-background-color: rgba(0,0,0,.3);
+}
+#sideBar {
+    -fx-background-image: url("../image/backgroundImage.png");
+    -fx-background-position: center;
+}
+#sideBar .button {
+    -fx-font-size: 16px;
+}
+#icon {
+    -fx-border-color: rgba(0,0,0,.3);
+    -fx-border-style: solid;
+    -fx-border-radius: 50%;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,.3), 1, 1, 1, 1);
+}
+#background {
+    -fx-background-image: url("../image/bg.jpg");
+}
+#nUser,
+#rUser {
+    -fx-background-image: url("../image/backgroundImage.png");
+    -fx-background-position: center;
+}
+#nUser .label {
+    -fx-font-size: 15px;
+}

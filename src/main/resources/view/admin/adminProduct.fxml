@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="630.0" prefWidth="1065.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.yfengleng.controller.AdminProductController">
+    <children>
+        <GridPane layoutX="34.0" layoutY="38.0" prefHeight="579.0" prefWidth="1000.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="242.0" minWidth="10.0" prefWidth="240.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="162.0" minWidth="10.0" prefWidth="63.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="410.0" minWidth="10.0" prefWidth="347.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="102.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="171.0" minWidth="10.0" prefWidth="103.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="124.0" minWidth="10.0" prefWidth="103.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="124.0" minWidth="10.0" prefWidth="103.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="150.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="468.0" minHeight="10.0" prefHeight="468.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="48.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <TextField fx:id="searchText" prefHeight="113.0" prefWidth="242.0"/>
+                <Button fx:id="search" mnemonicParsing="false" onMouseClicked="#sProduct" prefHeight="36.0"
+                        prefWidth="64.0" text="查找" GridPane.columnIndex="1"/>
+                <Button fx:id="newProduct" mnemonicParsing="false" onMouseClicked="#nProduct" prefHeight="106.0"
+                        prefWidth="105.0" text="新建产品" GridPane.columnIndex="4">
+                    <GridPane.margin>
+                        <Insets left="10.0"/>
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="removeProduct" mnemonicParsing="false" onMouseClicked="#rProduct" prefHeight="139.0"
+                        prefWidth="106.0" text="删除产品" GridPane.columnIndex="5">
+                    <GridPane.margin>
+                        <Insets left="10.0"/>
+                    </GridPane.margin>
+                </Button>
+                <Button fx:id="modifyProduct" mnemonicParsing="false" onMouseClicked="#mProduct" prefHeight="146.0"
+                        prefWidth="106.0" text="修改产品" GridPane.columnIndex="6">
+                    <GridPane.margin>
+                        <Insets left="10.0"/>
+                    </GridPane.margin>
+                </Button>
+                <TableView fx:id="productTable" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="7"
+                           GridPane.rowIndex="1" GridPane.rowSpan="2">
+                    <columns>
+                        <TableColumn fx:id="productName" prefWidth="159.0" text="产品名称"/>
+                        <TableColumn fx:id="productType" prefWidth="167.0" text="产品类别"/>
+                        <TableColumn fx:id="productInfo" minWidth="0.0" prefWidth="467.0" text="产品信息"/>
+                        <TableColumn fx:id="productSpecification" prefWidth="206.0" text="产品规格"/>
+                    </columns>
+                </TableView>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>
