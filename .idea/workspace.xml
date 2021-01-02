@@ -5,209 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96721604-3fe4-4895-a2da-7f26cc0e4200" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/util/Md5SaltTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/consignee/consignee.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/login/loginMain.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/Md5SaltTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/Md5SaltTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/App/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/Consignee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/Consignee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/EquipmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/EquipmentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/OrderRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/OrderRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/ProductType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/AdminEquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/AdminEquipmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/AdminEquipmentTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/AdminEquipmentTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/AdminFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/AdminFactoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/AdminProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/AdminProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/AdminProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/AdminProductTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/AdminUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/AdministratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/AdministratorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/ConsigneeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/ConsigneeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/ConsigneeOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/ConsigneeOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/ForgetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/ForgetPasswordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/ManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/ManagerOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/ManagerOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/MyFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/MyFactoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/NewEquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/NewEquipmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/NewEquipmentTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/NewEquipmentTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/NewFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/NewFactoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/NewOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/NewOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/NewProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/NewProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/NewProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/NewProductTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/NewUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/NewUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/OrderInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/RentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/RentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/TenderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/TenderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/temp/EquipmentTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/temp/EquipmentTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/temp/OrderTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/temp/OrderTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/controller/temp/ProductTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/controller/temp/ProductTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/AdministratorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/AdministratorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/ConsigneeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/ConsigneeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/EquipmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/EquipmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/EquipmentTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/EquipmentTypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/FactoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/FactoryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/ManagerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/ManagerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/OrderRecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/OrderRecordDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/dao/ProductTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/dao/ProductTypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/util/EmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/util/EmailUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/util/MybatisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/util/MybatisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/util/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/util/RandomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/util/TimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yfengleng/util/TimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/AdministratorDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/AdministratorDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/ConsigneeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/ConsigneeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/EquipmentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/EquipmentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/EquipmentTypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/EquipmentTypeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/FactoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/FactoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/ManagerDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/ManagerDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/OrderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/OrderDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/OrderRecordDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/OrderRecordDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/ProductDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lcl/dao/ProductTypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yfengleng/dao/ProductTypeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/adminEquipment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/admin/adminEquipment.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/adminEquipmentType.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/admin/adminEquipmentType.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/adminFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/admin/adminFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/adminProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/admin/adminProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/adminProductType.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/admin/adminProductType.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/adminUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/admin/adminUser.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/administrator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/admin/administrator.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/consignee.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/consigneeOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/consignee/consigneeOrder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/forgetPassword.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login/forgetPassword.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/loginMain.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/manager.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/managerOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/managerOrder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/myFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/myFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/newEquipment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/newEquipment.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/newEquipmentType.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/newEquipmentType.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/newFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/newFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/newOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/newOrder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/newProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/newProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/newProductType.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/newProductType.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/newUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/newUser.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/orderInfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/orderInfo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/rent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/rent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/tender.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/tender.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/AdministratorDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/AdministratorDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/ConsigneeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/ConsigneeDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/EquipmentTypeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/EquipmentTypeDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/FactoryDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/FactoryDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/ManagerDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/ManagerDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/OrderRecordDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/OrderRecordDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/ProductDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/ProductDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lcl/test/ProductTypeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/ProductTypeDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/App/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/Administrator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/Consignee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/Equipment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/EquipmentType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/OrderRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/ProductType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/AdminEquipmentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/AdminEquipmentTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/AdminFactoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/AdminProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/AdminProductTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/AdminUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/AdministratorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/ConsigneeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/ConsigneeOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/ForgetPasswordController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/ManagerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/ManagerOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/MyFactoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/NewEquipmentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/NewEquipmentTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/NewFactoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/NewOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/NewProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/NewProductTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/NewUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/OrderInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/RentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/TenderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/temp/EquipmentTemp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/temp/OrderTemp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/controller/temp/ProductTemp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/AdministratorDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/AdministratorDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ConsigneeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ConsigneeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/EquipmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/EquipmentDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/EquipmentTypeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/EquipmentTypeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/FactoryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/FactoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ManagerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ManagerDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/OrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/OrderDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/OrderRecordDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/OrderRecordDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ProductDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ProductTypeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/dao/ProductTypeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/util/EmailUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/util/EmailUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/util/MybatisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/util/RandomUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcl/util/TimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbcConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/adminEquipment.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/adminEquipmentType.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/adminFactory.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/adminProduct.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/adminProductType.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/adminUser.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/administrator.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/consignee.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/consigneeOrder.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/forgetPassword.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/loginMain.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/manager.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/managerOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/managerOrder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/myFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/myFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/newEquipment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/newEquipment.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/newEquipmentType.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/newEquipmentType.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/newFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/newFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/newOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/newOrder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/newProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/newProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/newProductType.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/newProductType.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/newUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/newUser.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/orderInfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/orderInfo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/rent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/rent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/tender.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/tender.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/AdministratorDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/ConsigneeDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/EquipmentTypeDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/FactoryDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/ManagerDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/OrderRecordDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/ProductDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lcl/test/ProductTypeDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -384,7 +182,7 @@
       <workItem from="1609300855907" duration="555000" />
       <workItem from="1609586418083" duration="12243000" />
       <workItem from="1609600190621" duration="16000" />
-      <workItem from="1609600245151" duration="3836000" />
+      <workItem from="1609600245151" duration="4327000" />
     </task>
     <task id="LOCAL-00001" summary="Basic structure of the project">
       <created>1594865617560</created>
