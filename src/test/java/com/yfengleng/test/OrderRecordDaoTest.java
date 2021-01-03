@@ -43,6 +43,6 @@ public class OrderRecordDaoTest {
 
    @Test
     public void testInsert(){
-        orderRecordDao.insert(new OrderRecord(1,100,1));
+        orderRecordDao.insert(new OrderRecord(1,100,5));
    }
 }
