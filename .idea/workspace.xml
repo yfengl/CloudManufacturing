@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96721604-3fe4-4895-a2da-7f26cc0e4200" name="Default Changelist" comment="">
+    <list default="true" id="96721604-3fe4-4895-a2da-7f26cc0e4200" name="Default Changelist" comment="test.sql update">
+      <change afterPath="$PROJECT_DIR$/.idea/CloudManufacturing.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/OrderRecordDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yfengleng/test/OrderRecordDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,9 +55,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.40406978" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
@@ -88,16 +87,27 @@
       <recent name="com.lcl.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderRecordDaoTest.testInsert">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyApplication">
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yfengleng.MyApplication" />
+      <module name="CloudManufacturing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yfengleng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,22 +139,6 @@
       <option name="PACKAGE_NAME" value="com.yfengleng.test" />
       <option name="MAIN_CLASS_NAME" value="com.yfengleng.test.ConsigneeDaoTest" />
       <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsigneeDaoTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CloudManufacturing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yfengleng.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yfengleng.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yfengleng.test.ConsigneeDaoTest" />
-      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConsigneeDaoTest.testInsert" />
       <item itemvalue="JUnit.ConsigneeDaoTest.testDeleteById" />
       <item itemvalue="JUnit.ConsigneeDaoTest.testFindAll" />
       <item itemvalue="JUnit.ConsigneeDaoTest.testUpdate" />
       <item itemvalue="JUnit.OrderRecordDaoTest.testInsert" />
+      <item itemvalue="Application.MyApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyApplication" />
         <item itemvalue="JUnit.OrderRecordDaoTest.testInsert" />
         <item itemvalue="JUnit.ConsigneeDaoTest.testUpdate" />
         <item itemvalue="JUnit.ConsigneeDaoTest.testFindAll" />
         <item itemvalue="JUnit.ConsigneeDaoTest.testDeleteById" />
-        <item itemvalue="JUnit.ConsigneeDaoTest.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +227,7 @@
       <workItem from="1609600245151" duration="4327000" />
       <workItem from="1609605136451" duration="237000" />
       <workItem from="1609663896139" duration="2462000" />
+      <workItem from="1617355260728" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Basic structure of the project">
       <created>1594865617560</created>

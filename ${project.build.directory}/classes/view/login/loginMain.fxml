@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="loginContain" prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yfengleng.controller.LoginController">
+   <children>
+      <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="#3acd1633" height="405.0" layoutX="204.0" layoutY="145.0" stroke="TRANSPARENT" strokeType="INSIDE" width="793.0" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="204.0" AnchorPane.rightAnchor="203.0" AnchorPane.topAnchor="145.0" />
+      <AnchorPane fx:id="loginPanel" layoutX="647.0" layoutY="145.0" prefHeight="405.0" prefWidth="350.0">
+         <children>
+            <Label layoutX="95.0" layoutY="93.0" lineSpacing="20.0" prefHeight="39.0" prefWidth="155.0" text="登陆 / 注册" textFill="#9e5858">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="account" layoutX="39.0" layoutY="162.0" prefHeight="39.0" prefWidth="274.0" />
+            <PasswordField fx:id="password" layoutX="39.0" layoutY="239.0" prefHeight="39.0" prefWidth="274.0" />
+            <Button fx:id="submit" layoutX="82.0" layoutY="342.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="39.0" prefWidth="191.0" text="登陆" />
+            <Hyperlink layoutX="250.0" layoutY="289.0" onMouseClicked="#findPassword" text="忘记密码？" />
+            <Hyperlink layoutX="39.0" layoutY="289.0" onMouseClicked="#signUp" text="注册" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="logo" alignment="CENTER" layoutX="209.0" layoutY="220.0" prefHeight="83.0" prefWidth="350.0" text="云工厂智能制造" />
+      <Button fx:id="close" layoutX="1170.0" mnemonicParsing="false" onMouseClicked="#closeStage" prefHeight="28.0" prefWidth="30.0" text="X" />
+      <Label layoutX="568.0" layoutY="524.0" prefHeight="26.0" prefWidth="79.0" text="©yfl 2020" textFill="#8d1b1b" />
+   </children>
+</AnchorPane>

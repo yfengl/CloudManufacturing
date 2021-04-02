@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="499.0" prefWidth="959.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yfengleng.controller.OrderInfoController">
+   <children>
+      <GridPane layoutX="8.0" prefHeight="487.0" prefWidth="944.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="0.0" prefWidth="287.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="496.0" minWidth="10.0" prefWidth="108.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="592.0" minWidth="0.0" prefWidth="533.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="548.0" minWidth="0.0" prefWidth="0.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="496.0" minWidth="0.0" prefWidth="0.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="139.0" minHeight="0.0" prefHeight="35.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="365.0" minHeight="10.0" prefHeight="365.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="该订单投标详情">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TableView fx:id="orderTable" prefHeight="362.0" prefWidth="785.0" GridPane.columnSpan="5" GridPane.rowIndex="1">
+              <columns>
+                <TableColumn fx:id="managerId" prefWidth="467.0" text="投标方" />
+                <TableColumn fx:id="price" prefWidth="476.0" text="投标金额" />
+              </columns>
+            </TableView>
+            <TextField fx:id="searchText" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onMouseClicked="#sOrder" text="搜索" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Button mnemonicParsing="false" onMouseClicked="#selectOrder" prefHeight="36.0" prefWidth="84.0" text="选标">
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

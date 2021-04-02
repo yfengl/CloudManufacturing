@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yfengleng.dao.FactoryDao">
+    <select id="findAll" resultType="Factory">
+        select * from factory;
+    </select>
+    <select id="findByUid" parameterType="int" resultType="Factory">
+        select * from factory where uid=#{uid};
+    </select>
+    <select id="findByFactoryId" parameterType="int" resultType="Factory">
+        select * from factory where factoryId=#{factoryId};
+    </select>
+    <select id="findByInfo" parameterType="String" resultType="Factory">
+        select * from factory where factoryName=#{info} or factoryInfo like '%${info}%' or factoryStatus=#{info};
+    </select>
+    <select id="findByFactoryName" resultType="Factory" parameterType="String">
+        select * from factory where factoryName=#{factoryName};
+    </select>
+    <update id="update" parameterType="Factory">
+        update factory set uid=#{uid},factoryName=#{factoryName},factoryInfo=#{factoryInfo},factoryStatus=#{factoryStatus} where factoryId=#{factoryId};
+    </update>
+    <insert id="insert" parameterType="Factory">
+        insert into factory(uid, factoryId, factoryName, factoryInfo, factoryStatus) VALUES (#{uid},#{factoryId},#{factoryName},#{factoryInfo},#{factoryStatus});
+    </insert>
+    <delete id="deleteByFactoryName" parameterType="String">
+        delete from factory where factoryName=#{factoryName};
+    </delete>
+</mapper>

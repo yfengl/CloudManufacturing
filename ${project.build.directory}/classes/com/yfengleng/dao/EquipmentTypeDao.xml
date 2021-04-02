@@ -1,0 +1,26 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yfengleng.dao.EquipmentTypeDao">
+    <select id="findAll" resultType="EquipmentType">
+        select * from equipment_type;
+    </select>
+    <select id="findByTypeId" parameterType="int" resultType="EquipmentType">
+        select * from equipment_type where typeId=#{typeId};
+    </select>
+    <select id="findByTypeName" parameterType="String" resultType="EquipmentType">
+        select * from equipment_type where typeName=#{typeName};
+    </select>
+    <insert id="insert" parameterType="EquipmentType">
+        insert into equipment_type(typeId, typeName) VALUES (#{typeId},#{typeName});
+    </insert>
+    <update id="update" parameterType="EquipmentType">
+        update equipment_type set typeName=#{typeName} where typeId=#{typeId};
+    </update>
+    <delete id="deleteByTypeId" parameterType="int">
+        delete from equipment_type where typeId=#{typeId};
+    </delete>
+    <delete id="deleteByTypeName" parameterType="String">
+        delete from equipment_type where typeName=#{typeName};
+    </delete>
+</mapper>

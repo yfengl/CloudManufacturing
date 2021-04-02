@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="nEquipment" prefHeight="340" prefWidth="600" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yfengleng.controller.NewEquipmentController">
+    <children>
+        <VBox layoutX="1.0" prefHeight="340.0" prefWidth="600.0">
+            <children>
+                <HBox prefHeight="9.0" prefWidth="600.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="设备名称">
+                            <HBox.margin>
+                                <Insets top="20.0" />
+                            </HBox.margin>
+                        </Label>
+                        <TextField fx:id="equipmentName" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                            <HBox.margin>
+                                <Insets top="20.0" />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="90.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets top="40.0" />
+                    </VBox.margin>
+                </HBox>
+                <HBox prefHeight="9.0" prefWidth="600.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="设备规格">
+                            <HBox.margin>
+                                <Insets top="10.0" />
+                            </HBox.margin>
+                        </Label>
+                        <TextField fx:id="equipmentSpecification" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                            <HBox.margin>
+                                <Insets top="10.0" />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="90.0" />
+                    </padding>
+                </HBox>
+                <HBox prefHeight="9.0" prefWidth="600.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="类别名称">
+                            <HBox.margin>
+                                <Insets top="10.0" />
+                            </HBox.margin>
+                        </Label>
+                        <TextField fx:id="equipmentTypeName" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0">
+                            <HBox.margin>
+                                <Insets top="10.0" />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="90.0" />
+                    </padding>
+                </HBox>
+            <HBox prefHeight="9.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="102.0" text="所属工厂">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="factoryName" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="242.0" promptText="云工厂管理员必填，超级管理员可为空">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </HBox>
+                <HBox prefHeight="9.0" prefWidth="600.0">
+                    <padding>
+                        <Insets left="90.0" />
+                    </padding>
+                    <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#newEquipment" text="新建">
+                            <HBox.margin>
+                                <Insets left="60.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" text="重置">
+                            <HBox.margin>
+                                <Insets left="140.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="30.0" />
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

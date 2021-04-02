@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="background" prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yfengleng.controller.AdministratorController">
+   <bottom>
+      <Label prefHeight="26.0" prefWidth="79.0" text="©yfl 2020" textFill="#8d1b1b" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <AnchorPane fx:id="table" onMouseClicked="#closeStage" prefHeight="600.0" prefWidth="1000.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <VBox fx:id="sideBar" alignment="TOP_CENTER" prefHeight="624.0" prefWidth="157.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="icon" alignment="CENTER" prefHeight="101.0" prefWidth="138.0" text="管理员">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onMouseClicked="#userAdmin" prefHeight="50.0" prefWidth="150.0" text="👩用户管理">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#factoryAdmin" prefHeight="50.0" prefWidth="150.0" text="云工厂管理">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#productTypeAdmin" prefHeight="50.0" prefWidth="150.0" text="产品类型管理">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#productAdmin" prefHeight="50.0" prefWidth="150.0" text="产品管理">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#equipmentTypeAdmin" prefHeight="50.0" prefWidth="150.0" text="设备类型管理">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#equipmentAdmin" prefHeight="50.0" prefWidth="150.0" text="设备管理">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <Button fx:id="close" mnemonicParsing="false" onMouseClicked="#closeStage" prefHeight="30.0" prefWidth="35.0" text="X" BorderPane.alignment="TOP_RIGHT" />
+   </top>
+</BorderPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="background1" prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yfengleng.controller.ConsigneeController">
+   <bottom>
+      <Label prefHeight="26.0" prefWidth="79.0" text="©yfl 2020" textFill="#8d1b1b" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <AnchorPane fx:id="table" onMouseClicked="#closeStage" prefHeight="600.0" prefWidth="1000.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <VBox fx:id="sideBar1" alignment="TOP_CENTER" prefHeight="624.0" prefWidth="176.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="icon" alignment="CENTER" prefHeight="99.0" prefWidth="95.0" text="经销商">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="23.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="info" alignment="CENTER" prefHeight="24.0" prefWidth="132.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onMouseClicked="#adminOrderConsignee" prefHeight="50.0" prefWidth="130.0" text="订单管理">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <Button fx:id="close" mnemonicParsing="false" onMouseClicked="#closeStage" prefHeight="30.0" prefWidth="35.0" text="X" BorderPane.alignment="TOP_RIGHT" />
+   </top>
+</BorderPane>

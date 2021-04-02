@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yfengleng.dao.ProductDao">
+    <select id="findAll" resultType="Product">
+        select * from product;
+    </select>
+    <select id="findByProductId" parameterType="int" resultType="Product">
+        select * from product where productId=#{productId};
+    </select>
+    <select id="findByProductTypeId" parameterType="int" resultType="Product">
+        select * from product where ptId=#{ptId};
+    </select>
+    <select id="findByInfo" parameterType="String" resultType="Product">
+        select * from product where productId=#{info} or ptId=#{info} or productName=#{info} or productInfo like '%${info}%';
+    </select>
+    <select id="findByProductName" resultType="Product" parameterType="String">
+        select * from product where productName=#{productName};
+    </select>
+    <insert id="insert" parameterType="Product">
+        insert into product(productId, ptId, productName, productInfo, productSpecification) VALUES (#{productId},#{ptId},#{productName},#{productInfo},#{productSpecification});
+    </insert>
+    <update id="update" parameterType="Product">
+        update product set ptId=#{ptId},productName=#{productName},productInfo=#{productInfo},productSpecification=#{productSpecification} where productId=#{productId};
+    </update>
+    <delete id="deleteByProductId" parameterType="int">
+        delete from product where productId=#{productId};
+    </delete>
+    <delete id="deleteByProductName" parameterType="String">
+        delete from product where productName=#{productName};
+    </delete>
+</mapper>
